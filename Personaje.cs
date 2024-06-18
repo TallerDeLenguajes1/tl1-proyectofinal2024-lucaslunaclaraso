@@ -35,6 +35,47 @@ public class Personaje
 
 
 
+    // CONSTRUCTOR
+
+    public Personaje(string tipo, string nombre, string apodo, DateTime fechaDeNacimiento)
+    {
+        Tipo = tipo;
+        Nombre = nombre;
+        Apodo = apodo;
+        FechaDeNacimiento = fechaDeNacimiento;
+        Edad = DateTime.Now.Year - fechaDeNacimiento.Year;
+
+
+        Random rnd = new Random();
+
+        Velocidad = rnd.Next(1, 11);
+        Destreza = rnd.Next(1, 6);
+        Fuerza = rnd.Next(1, 11);
+        Nivel = rnd.Next(1, 11);
+        Armadura = rnd.Next(1, 11);
+        Salud = 100;
+
+    }
+
+
+
+
+    public void MostrarDatosPersonaje()
+    {
+
+        Console.WriteLine("Tipo: " + Tipo);
+        Console.WriteLine("Nombre: " + Nombre);
+        Console.WriteLine("Apodo: " + Apodo);
+        Console.WriteLine("Fecha de nacimiento: " + FechaDeNacimiento);
+        Console.WriteLine("Edad: " + Edad);
+        Console.WriteLine("Velocidad: " + Velocidad);
+        Console.WriteLine("Destreza: " + Destreza);
+        Console.WriteLine("Fuerza: " + Fuerza);
+        Console.WriteLine("Nivel: " + Nivel);
+        Console.WriteLine("Armadura: " + Armadura);
+        Console.WriteLine("Salud: " + Salud);
+        Console.WriteLine();
+    }
 
 
 }
