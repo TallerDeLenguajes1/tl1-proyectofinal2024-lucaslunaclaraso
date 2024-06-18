@@ -3,9 +3,12 @@ public class FabricaDePersonajes
 {
     public static Personaje crearPersonje()
     {
-        string[] nombres = { };
-        string[] tipos = { };
-        string[] apodos = { };
+        string[] nombres = { "John", "Lucas", "Bruno", "Esteban", "Sofia", "Lucia", "Franco", "Milagros" };
+        string[] tipos = { "Guerrero", "Mago", "Arquero", "Ladrón", "Hechicero" };
+        string[] apodos = {
+    "El Valiente", "El Sabio", "El Audaz", "El Fuerte", "El Rápido",
+    "La Veloz", "La Audaz", "El Justiciero", "El Intrépido", "El Luminoso"
+};
 
         Random rnd = new Random();
         DateTime fechaNacimiento = GenerarFechaNacimiento();
