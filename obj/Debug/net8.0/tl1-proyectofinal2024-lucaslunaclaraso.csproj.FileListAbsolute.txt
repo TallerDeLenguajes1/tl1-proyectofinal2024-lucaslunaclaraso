@@ -13,3 +13,18 @@ C:\Users\Alumno\Desktop\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\
 C:\Users\Alumno\Desktop\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.pdb
 C:\Users\Alumno\Desktop\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\ref\tl1-proyectofinal2024-lucaslunaclaraso.dll
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\bin\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.exe
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\bin\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.deps.json
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\bin\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.runtimeconfig.json
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\bin\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.dll
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\bin\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.pdb
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.AssemblyInfoInputs.cache
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.AssemblyInfo.cs
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.csproj.CoreCompileInputs.cache
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.sourcelink.json
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.dll
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\refint\tl1-proyectofinal2024-lucaslunaclaraso.dll
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.pdb
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\tl1-proyectofinal2024-lucaslunaclaraso.genruntimeconfig.cache
+D:\Facultad\Taller 1\tl1-proyectofinal2024-lucaslunaclaraso\obj\Debug\net8.0\ref\tl1-proyectofinal2024-lucaslunaclaraso.dll

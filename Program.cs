@@ -30,8 +30,50 @@
         bool archivoExiste = PersonajesJson.Existe(nombreArchivo);
         Console.WriteLine($"El archivo {nombreArchivo} existe y tiene datos: {archivoExiste}");
 
-        // Esperar hasta que el usuario presione una tecla para salir
-        Console.ReadKey();
+        Random random = new Random();
+
+        if (archivoExiste)
+        {
+            // Realizar combates hasta que solo quede un personaje
+            while (personajesDesdeArchivo.Count > 1)
+            {
+                // Elegir dos personajes aleatorios para el combate
+                int index1 = random.Next(personajesDesdeArchivo.Count);
+                Personaje personaje1 = personajesDesdeArchivo[index1];
+
+                int index2;
+                do
+                {
+                    index2 = random.Next(personajesDesdeArchivo.Count);
+                } while (index2 == index1);
+
+                Personaje personaje2 = personajesDesdeArchivo[index2];
+
+                // Iniciar el combate entre los dos personajes aleatorios
+                Combate combate = new Combate(personaje1, personaje2, personajesDesdeArchivo, nombreArchivo);
+                combate.IniciarCombate();
+                // Esperar hasta que el usuario presione una tecla para la siguiente pelea
+            // Esperar hasta que el usuario presione una tecla para la siguiente pelea
+            try
+            {
+                Console.WriteLine("Presione una tecla para iniciar la siguiente pelea...");
+                Console.ReadKey();
+            }
+            catch (InvalidOperationException ex)
+            {
+                Console.WriteLine("Error al esperar la entrada del usuario: " + ex.Message);
+                break;
+            }
+            }
+            // Mostrar el ganador
+            if (personajesDesdeArchivo.Count == 1)
+            {
+                Console.WriteLine("El ganador es:");
+                personajesDesdeArchivo[0].MostrarDatosPersonaje();
+            }
+        }
+        // // Esperar hasta que el usuario presione una tecla para salir
+        // Console.ReadKey();
     }
 
 }

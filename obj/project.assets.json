@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alumno\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\tl1-proyectofinal2024-lucaslunaclaraso\\tl1-proyectofinal2024-lucaslunaclaraso.csproj",
+      "projectUniqueName": "D:\\Facultad\\Taller 1\\tl1-proyectofinal2024-lucaslunaclaraso\\tl1-proyectofinal2024-lucaslunaclaraso.csproj",
       "projectName": "tl1-proyectofinal2024-lucaslunaclaraso",
-      "projectPath": "C:\\Users\\Alumno\\Desktop\\tl1-proyectofinal2024-lucaslunaclaraso\\tl1-proyectofinal2024-lucaslunaclaraso.csproj",
-      "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno\\Desktop\\tl1-proyectofinal2024-lucaslunaclaraso\\obj\\",
+      "projectPath": "D:\\Facultad\\Taller 1\\tl1-proyectofinal2024-lucaslunaclaraso\\tl1-proyectofinal2024-lucaslunaclaraso.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "D:\\Facultad\\Taller 1\\tl1-proyectofinal2024-lucaslunaclaraso\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,12 +59,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.5, 8.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.5, 8.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.5, 8.0.5]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.5, 8.0.5]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.5.24307.3/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
